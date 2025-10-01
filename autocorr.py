@@ -3,16 +3,16 @@ import numpy as np
 homepath = '/Users/cmb/Documents/gauge_fields/U1_2D_MH/'
 
 ### specify data
-obs = 'Q'
+obs = 'P' #choose S(action), Q(topological charge), or P(avg plaquette)
 Nstart = 0
-Nend = 1000000
-Nx, Ny = 16, 16
+Nend = 12000
+Nx, Ny = 6, 6
 action = 'W'
-beta = 9.0
+beta = 2.0
 
 ### configurations to analyze
 Nstart_analysis = 0
-Nend_analysis = 1000000
+Nend_analysis = 12000
 
 
 ### set threshold for autocorrelation function
